@@ -1,0 +1,3 @@
+[submodule "apps/AlexaBizkaibus"]
+	path = apps/AlexaBizkaibus
+	url = https://github.com/UgaitzEtxebarria/AlexaBizkaibus.git
