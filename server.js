@@ -17,7 +17,7 @@ var instance = AlexaAppServer.start({
   public_html: "public_html", // Static content
   app_dir: "apps",            // Location of alexa-app modules
   app_root: "/alexa/",        // Service root
-  port: 8080                  // Port to use
+  port: process.env.PORT || 8080                  // Port to use
 });
  
 //instance.stop();              // Stop the server
