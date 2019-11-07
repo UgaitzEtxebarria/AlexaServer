@@ -1,15 +1,5 @@
 'use strict';
 
-/*var AlexaAppServer = require( 'alexa-app-server' );
-
-var server = new AlexaAppServer( {
-	appdir = "apps",
-	httpsEnabled: false,
-	port: process.env.PORT || 80
-} );
-
-server.start();*/
-
 var AlexaAppServer = require('alexa-app-server');
  
 var instance = AlexaAppServer.start({
@@ -19,5 +9,3 @@ var instance = AlexaAppServer.start({
   app_root: "/alexa/",        // Service root
   port: process.env.PORT || 8080                  // Port to use
 });
- 
-//instance.stop();              // Stop the server
