@@ -9,7 +9,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "preinstall": "git submodule update -i -r",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
